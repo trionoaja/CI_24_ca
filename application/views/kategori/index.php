@@ -14,8 +14,8 @@
         <td><?= $no++; ?></td>
         <td><?= $k->nama_kategori; ?></td>
         <td>
-            <a href="<?= site_url('kategori/edit/'.$k->id_kategori); ?>">Edit</a>
-            <a href="<?= site_url('kategori/hapus/'.$k->id_kategori); ?>" 
+            <a href="<?= site_url('kategori/edit/'.$k->id); ?>">Edit</a>
+            <a href="<?= site_url('kategori/hapus/'.$k->id); ?>" 
                onclick="return confirm('Yakin?')">Hapus</a>
         </td>
     </tr>
