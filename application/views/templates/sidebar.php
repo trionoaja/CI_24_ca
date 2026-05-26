@@ -37,6 +37,12 @@
         <span>Laporan Peminjaman</span>
     </a>
 </li>
+<li class="nav-item">
+    <a class="nav-link" href="<?= site_url('laporan/buku') ?>">
+        <i class="fas fa-box"></i>
+        <span>Laporan Buku</span>
+    </a>
+</li>
 </ul>
 <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
